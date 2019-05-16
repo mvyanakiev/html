@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Forms</title>
+</head>
+<body>
+<form>
+    <fieldset>
+        <legend>Customer Details</legend>
+        <label for="firstName">First Name</label>
+        <input type="text" id="firstName" placeholder="George" autofocus><br><br>
+        <label for="lastName">Last Name</label>
+        <input type="text" id="lastName" placeholder="Devis"><br><br>
+        <label for="male">Male</label>
+        <input type="radio" id="male" value="male">
+        <label for="female">Female</label>
+        <input type="radio" id="female" value="female">
+        <label for="male">Other</label>
+        <input type="radio" id="other" value="other"><br><br>
+        Preferred contact method:
+        <label for="emailPr">Email</label>
+        <input type="radio" id="emailPr" value="email">
+        <label for="phonePr">Phone</label>
+        <input type="radio" id="phonePr" value="phone"><br><br>
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="your@email.com"><br><br>
+        <label for="phone">Phone</label>
+        <input type="tel" id="phone" placeholder="+359885236225"><br><br>
+        <label for="town">Town</label>
+        <input list="town">
+        <datalist id="town">
+            <option value="Varna">
+            <option value="Plovdiv">
+            <option value="Burgas">
+            <option value="Sofia">
+            <option value="Pleven">
+        </datalist>
+        <br>
+        <br>
+        <label for="age">Age</label>
+        <input type="number" id="age" min="18"max="70" step="1"><br><br>
+        <label for="pl">Programming language</label>
+        <select name="pl" id="pl">
+            <option value="Java">Java</option>
+            <option value="PHP">PHP</option>
+            <option value="C#">C#</option>
+            <option value="JavaScript">JavaScript</option>
+            <option value="Python" selected>Python</option>
+            <option value="Ruby">Ruby</option>
+            <option value="Other">Other</option>
+        </select><br><br>
+        <textarea placeholder="More information..." rows="5" cols="20"></textarea><br><br>
+        <input type="checkbox" name="agree" value=checked"> I agree the Terms and Conditions<br><br>
+        <input type="submit">
+    </fieldset>
+</form>
+</body>
+</html>
