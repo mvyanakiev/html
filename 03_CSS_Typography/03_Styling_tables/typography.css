@@ -1,0 +1,36 @@
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 14px;
+    padding: 40px;
+}
+
+table {
+    width: 100%;
+}
+
+table, th, td {
+    padding: 0.4em;
+    border-collapse: collapse;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(221, 221, 221);
+}
+
+th {
+    text-align: left;
+    background-color: rgb(221, 221, 221);
+}
+
+/*tr:nth-child(even) {*/
+/*    background: #CCC*/
+/*}*/
+
+table tr:nth-child(odd) td {
+    background: rgb(241, 241, 241)
+}
+
+table tr:hover td {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
