@@ -1,0 +1,31 @@
+@import url(https://use.fontawesome.com/releases/v5.8.2/css/all.css);
+
+html {
+    font-family: Helvetica, "Font Awesome 5 Free", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 40px;
+}
+
+a:link, a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.button{
+    border-radius: 10px;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.button.green{
+    background-color: #2A943C;
+}
+
+.button.orange{
+    background-color: #D17E2D;
+}
+
