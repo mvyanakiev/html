@@ -1,43 +1,49 @@
 @import url(https://use.fontawesome.com/releases/v5.8.2/css/all.css);
 
 html {
-    font-family: Helvetica, "Font Awesome 5 Free", sans-serif;
     font-size: 16px;
     line-height: 1.5;
     padding: 20px;
 }
 
-li{
+li {
     padding-bottom: 5px;
 }
 
 .icons {
-    font-family: "Font Awesome 5 Free", sans-serif;
     padding: 0 10px 20px 20px;
     list-style: none;
 }
 
 .icons:nth-child(1) li:before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
     content: "\f00C";
     margin: 0 7px 0 -5px;
 }
 
 .icons:nth-child(2) li:before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
     content: "\f005";
     margin: 0 7px 0 -5px;
 }
 
 .icons:nth-child(3) li:nth-child(1):before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
     content: "\f0e0";
     margin: 0 7px 0 -5px;
 }
 
 .icons:nth-child(3) li:nth-child(2):before {
+    font-family: "Font Awesome 5 Brands";
     content: "\f099";
     margin: 0 7px 0 -5px;
 }
 
 .icons:nth-child(3) li:nth-child(3):before {
+    font-family: "Font Awesome 5 Brands";
     content: "\f08c";
     margin: 0 7px 0 -5px;
 }
