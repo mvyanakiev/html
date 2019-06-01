@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    box-sizing: border-box;
+    font: 16px/1.5 Helvetica, sans-serif;
+}
+
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+
+.box{
+    width: 30%;
+    display: inline-block;
+    font-size: 2rem;
+    line-height: 1;
+    text-align: center;
+    margin: 0 0 1rem 0;
+    border: 0.5rem solid #000;
+    padding: 1rem;
+}
+
+.box .inner{
+
+}
+
+#box1{
+/*float: left;*/
+}
+
+#box2{
+    /*margin: auto;*/
+}
+
+#box3{
+/*float: right;*/
+}
