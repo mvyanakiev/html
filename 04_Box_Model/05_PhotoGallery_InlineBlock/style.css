@@ -1,0 +1,26 @@
+html{
+    font: 16px/1.5 PT Georgia, serif;
+    box-sizing: border-box;
+}
+
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+
+body{
+    background: rgb(238,238,238);
+}
+
+.gallery li{
+    margin-top: 1.25rem;
+    display: inline-block;
+}
+
+.gallery li img{
+    width: 26.25rem;
+    height: auto;
+    margin-right: 1.56rem;
+    vertical-align: middle;
+    border: 0.4rem solid #000;
+    padding: 1.25rem;
+}
