@@ -1,17 +1,46 @@
-nav ul{
-    padding: 0.5em;
+nav ul {
+    padding: 0;
     margin: 0;
     background: #000;
 }
 
-nav ul li{
+nav ul li {
     display: block;
     list-style: none outside;
     color: #FFF;
-    float: left;
+    position: relative;
 }
 
-nav ul li a{
+nav > ul > li {
+    float: left;
+    padding: 0.5em;
+}
+
+nav > ul > li > ul > li ul {
+    top: -0.5em;
+    left: 100%;
+}
+
+nav li ul {
+    display: block;
+    opacity: 0;
+    transform: translateY(1rem);
+    pointer-events: none;
+    transition: opacity 0.3s ease-in, transform 0.3s ease-in;
+    position: absolute;
+    top: 100%; left: 0;
+    z-index: 200;
+    padding: 0.5em;
+    border-radius: 0.3em;
+}
+
+nav li:hover > ul {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: all;
+}
+
+nav ul li a {
     color: #FFF;
     display: block;
     padding: 0.8em 1em;
@@ -20,6 +49,13 @@ nav ul li a{
     border-radius: 0.3em;
 }
 
-nav ul li a:hover{
+nav li.has-sub-menu > a:after{
+    display: inline-block;
+    content: '💧';
+    padding: 0 0 0 0.5rem;
+}
+
+nav li:hover > a,
+nav ul li a:hover {
     background: red;
 }

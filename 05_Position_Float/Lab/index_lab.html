@@ -11,10 +11,25 @@
             <h1>Hello There!</h1>
 
             <nav>
-                <ul class="cleaner"></ul>
+                <ul class="cleaner">
                 <li><a href="#">About</a></li>
-                <li><a href="#">Contacts</a></li>
+                <li class="has-sub-menu">
+                    <a href="#">Contacts</a>
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li class="has-sub-menu">
+                            <a href="#">Contacts</a>
+                            <ul>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Contacts</a></li>
+                                <li><a href="#">Stuff</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Stuff</a></li>
+                    </ul>
+                </li>
                 <li><a href="#">Stuff</a></li>
+                </ul>
             </nav>
 
             <form action="#">
@@ -62,7 +77,7 @@
 
         <div class="site-footer">
             <p>All rights reserved</p>
-            <a href="https://youtu.be/T3dUVbVpeXs?t=6201">Lesson up to CSS drop down</a>
+            <a href="https://youtu.be/T3dUVbVpeXs?t=6201" target="_blank">Lesson up to CSS drop down</a>
         </div>
 
     </div>
