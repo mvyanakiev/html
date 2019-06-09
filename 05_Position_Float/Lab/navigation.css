@@ -1,0 +1,25 @@
+nav ul{
+    padding: 0.5em;
+    margin: 0;
+    background: #000;
+}
+
+nav ul li{
+    display: block;
+    list-style: none outside;
+    color: #FFF;
+    float: left;
+}
+
+nav ul li a{
+    color: #FFF;
+    display: block;
+    padding: 0.8em 1em;
+    text-decoration: none;
+    line-height: 1;
+    border-radius: 0.3em;
+}
+
+nav ul li a:hover{
+    background: red;
+}

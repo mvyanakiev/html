@@ -1,0 +1,25 @@
+.site{
+    max-width: 60rem;
+    margin: 2rem auto;
+}
+
+.site-header {
+    border-bottom: 1px solid #000;
+}
+
+.site-main {
+    width: 60%;
+    float: left;
+    padding: 2rem;
+}
+
+.site-sidebar {
+    width: 40%;
+    float: left;
+    padding: 2rem;
+}
+
+.site-footer{
+    border-top: 1px solid #000;
+    padding: 2rem;
+}
