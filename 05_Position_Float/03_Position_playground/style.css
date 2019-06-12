@@ -11,6 +11,10 @@
     clear: both;
 }
 
+/*body{*/
+/*    position: relative;*/
+/*}*/
+
 html {
     box-sizing: border-box;
     font-family: Helvetica, Arial sans-serif;
@@ -18,52 +22,73 @@ html {
     line-height: 1.5;
 }
 
-div{
+div.viewport {
     width: 100%;
-    /*height: 10rem;*/
-    padding: 3rem 0;
-
+    height: 400px;
+    padding: 4rem auto;
 }
 
-div.viewport:nth-child(1){
+div.viewport:nth-child(1) {
     background: linear-gradient(90deg, rgb(51, 76, 151), rgb(88, 205, 156));
 }
 
-div.viewport:nth-child(2){
+div.viewport:nth-child(2) {
     background: linear-gradient(90deg, rgb(156, 31, 118), rgb(198, 134, 15));
 }
 
-.card {
-    /*background: #666;*/
-    width: 30%;
+.viewport {
     position: relative;
-    margin: 0 auto;
-    border-radius: 0.5em;
-    overflow: hidden;
-    /*border: 1px solid #fff;*/
-    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.9);
 }
 
-.card:before,
-.card:after {
-    display: block;
-    content: '';
-}
-
-.card.ar-16x9:before {
-    padding-top: 56.25%;
-}
-
-.card.ar-9x16:before {
-    padding-top: 17.77%;
-}
-
-.card:after {
+.card {
     position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    /*background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5));*/
-    /*transition: opacity 0.3s ease-in;*/
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
+
+.card > img {
+    width: 50%;
+    min-width: 10%;
+    height: auto;
+}
+
+
+
+
+
+
+/*.card {*/
+/*    !*background: #666;*!*/
+/*    width: 30%;*/
+/*    position: relative;*/
+/*    margin: 0 auto;*/
+/*    border-radius: 0.5em;*/
+/*    overflow: hidden;*/
+/*    !*border: 1px solid #fff;*!*/
+/*    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.9);*/
+/*}*/
+
+/*.card:before,*/
+/*.card:after {*/
+/*    display: block;*/
+/*    content: '';*/
+/*}*/
+
+/*.card.ar-16x9:before {*/
+/*    padding-top: 56.25%;*/
+/*}*/
+
+/*.card.ar-9x16:before {*/
+/*    padding-top: 17.77%;*/
+/*}*/
+
+/*.card:after {*/
+/*    position: absolute;*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*    bottom: 0;*/
+/*    right: 0;*/
+/*    !*background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5));*!*/
+/*    !*transition: opacity 0.3s ease-in;*!*/
+/*}*/
