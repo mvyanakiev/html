@@ -44,7 +44,7 @@ div.viewport:nth-child(2) {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-25%, -50%);
 }
 
 .card > img {
@@ -52,6 +52,14 @@ div.viewport:nth-child(2) {
     min-width: 10%;
     height: auto;
 }
+
+
+
+
+
+
+
+
 
 
 
