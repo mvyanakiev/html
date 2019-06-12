@@ -1,0 +1,109 @@
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+}
+
+.cleaner:after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+html {
+    box-sizing: border-box;
+    font-family: Helvetica, Arial sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+body {
+    font: inherit;
+    width: 80%;
+    max-width: 60rem;
+    margin: 2rem auto;
+    background: rgb(238, 238, 238);
+}
+
+.site-title {
+    display: inline-block;
+    font-family: Helvetica, Arial sans-serif;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+header {
+    margin-bottom: 1rem;
+    /*padding-bottom: 2rem;*/
+    border-bottom: 2px solid #000;
+}
+
+p {
+    margin-bottom: 1em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, serif;
+    line-height: 1.1;
+    padding: 0;
+    font-weight: normal;
+}
+
+h1 {
+    font-size: 3.0em;
+    margin: 1.2em 0 0.5em 0;
+}
+
+h2 {
+    font-size: 2.2em;
+    margin: 1em 0 0.5em 0;
+}
+
+h3 {
+    font-size: 1.9em;
+}
+
+h4 {
+    font-size: 1.6em;
+}
+
+h5 {
+    font-size: 1.4em;
+}
+
+h6 {
+    font-size: 1.2em;
+}
+
+blockquote {
+    font-family: Georgia, serif;
+    float: right;
+    margin: 1rem 1rem 1rem 2rem;
+    padding: 1rem 0rem 2rem 2rem;
+    width: 50%;
+    border-left: 5px solid #cccccc;
+    font-style: italic;
+}
+
+blockquote p:nth-of-type(2) {
+    text-align: right;
+    margin-right: 3rem;
+}
+
+main img {
+    border: 2px solid #000;
+    padding: 1rem;
+    background: rgb(255, 255, 255);
+    box-shadow: 0px 0px 26px 20px rgba(0, 0, 0, 0.25);
+}
+
+.right {
+    float: right;
+    margin: 0rem 0rem 0rem 1rem;
+}
+
+.left {
+    float: left;
+    margin: 0rem 1rem 0rem 0rem;
+}
