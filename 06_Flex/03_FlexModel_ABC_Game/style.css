@@ -27,23 +27,18 @@ div {
 
 span {
     display: flex;
-    flex: 1 1 2%;
+    flex: 0 1 5%;
     border: 1px black solid;
-    padding: 0.7rem 2rem;
-    margin: 0.3rem;
+    padding: 1rem 2rem;
+    margin: 0.5rem;
     align-items: center;
-    /*align-self: flex-end;*/
+
 }
 
-/*.container:nth-child(1){*/
-/*    display: flex;*/
-/*    order: 2;*/
-/*}*/
 
-
-/*span:nth-child(1){*/
-/*    order: 2;*/
-/*}*/
+span:nth-child(1){
+    order: 1;
+}
 
 span:nth-child(5){
     order: 9;
@@ -61,6 +56,6 @@ span:nth-child(10){
     order: 12;
 }
 
-span:nth-child(8){
-    order: 1;
-}
+/*span:nth-child(6){*/
+/*    order: 1;*/
+/*}*/
