@@ -1,0 +1,33 @@
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html{
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    max-width: 65vw;
+}
+
+span{
+    border: 1px black solid;
+}
+
+.notes{
+    display: flex;
+    flex-direction: column;
+}
+
+.workweek{
+    display: flex;
+    /*flex: 7 1 70%;*/
+}
+
+.reminder{
+    display: flex;
+    /*flex: 1 1 28%;*/
+}
