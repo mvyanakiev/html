@@ -17,20 +17,21 @@ body{
     color: #FFFFFF;
     padding: 1rem;
     display: flex;
-    min-height: 60vh;
+    /*min-height: 60vh;*/
+    min-width: 10rem;
     align-items: flex-start;
     justify-content: flex-start;
-    /*flex-wrap: wrap;*/
+    flex-wrap: wrap;
     /*flex-direction: column;*/
-    align-content: flex-end;
+    /*align-content: flex-end;*/
 }
 
 .item{
     background: #F00;
-    flex: 0 0 1rem;
+    flex: 1 0 2rem;
 }
 
-.item:nth-child(4){
-    order: 1;
-}
+/*.item:nth-child(4){*/
+/*    order: 1;*/
+/*}*/
 

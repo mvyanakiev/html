@@ -4,30 +4,50 @@
     box-sizing: inherit;
 }
 
-html{
+html {
     box-sizing: border-box;
 }
 
-.container{
+.container {
+    margin: auto;
     display: flex;
     max-width: 65vw;
 }
 
-span{
+.week {
+    display: flex;
+    flex: 1 1 100%;
+    min-height: 6rem;
+}
+
+span {
+    padding-top: 1rem;
+    display: flex;
     border: 1px black solid;
+    /*flex-direction: column;*/
 }
 
-.notes{
+.workweek {
+    justify-content: center;
     display: flex;
-    flex-direction: column;
+    flex: 1 0 70%;
+    min-height: 4rem;
 }
 
-.workweek{
+.days {
     display: flex;
-    /*flex: 7 1 70%;*/
+    flex: 1 0 20%;
 }
 
-.reminder{
+.reminder {
+    justify-content: center;
     display: flex;
-    /*flex: 1 1 28%;*/
+    flex: 1 0 28%;
+    min-height: 4rem;
+
+
+}
+
+.notes {
+    display: flex;
 }
