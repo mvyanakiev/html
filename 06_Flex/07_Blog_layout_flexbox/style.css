@@ -1,0 +1,123 @@
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+    font-family: Helvetica, Arial sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+body {
+    font: inherit;
+    width: 80%;
+    max-width: 60rem;
+    margin: 2rem auto;
+    background: rgb(238, 238, 238);
+}
+
+.page {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header {
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #000;
+    flex: 1 1 100%;
+}
+
+main {
+    display: flex;
+    flex: 1 1 70%;
+    flex-wrap: wrap;
+}
+
+.bq {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 0 30%;
+    justify-content: flex-end;
+
+    font-family: Georgia, serif;
+    margin: 1rem 1rem 1rem auto;
+    padding: 1rem 0rem 2rem 2rem;
+    border-left: 5px solid #cccccc;
+    font-style: italic;
+}
+
+img {
+    border: 2px solid #000;
+    padding: 1rem;
+    background: rgb(255, 255, 255);
+    box-shadow: 5px 5px 30px 10px rgba(0, 0, 0, 0.25);
+    margin: 1rem;
+    justify-content: right;
+    flex-wrap: wrap;
+}
+
+aside {
+    margin-left: 5rem;
+    flex: 1 1 20%;
+    flex-wrap: wrap;
+}
+
+aside ul {
+    list-style: square;
+    margin-left: 2rem;
+}
+
+aside ul a {
+    text-decoration: none;
+    color: rgb(0, 153, 0);
+}
+
+.site-title {
+    display: inline-block;
+    font-family: Helvetica, Arial sans-serif;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+p {
+    margin-bottom: 1em;
+    flex-wrap: wrap;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, serif;
+    line-height: 1.2;
+    padding: 0;
+    font-weight: normal;
+}
+
+h1 {
+    font-size: 2.8em;
+    margin: 1.2em 0 0.5em 0;
+}
+
+h2 {
+    font-size: 2.5em;
+    margin: 1em 0 0.5em 0;
+}
+
+h3 {
+    font-size: 2em;
+    margin: 1.2em 0 0.5em 0;
+}
+
+h4 {
+    font-size: 1.6em;
+}
+
+h5 {
+    font-size: 1.4em;
+}
+
+h6 {
+    font-size: 1.2em;
+}

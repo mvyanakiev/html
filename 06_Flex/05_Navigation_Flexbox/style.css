@@ -1,0 +1,54 @@
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    border-bottom: 2px solid rgb(0,0,0);
+    padding: 2rem;
+}
+
+header p{
+    font: 3rem Arial, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    flex: 1 0 55%;
+}
+
+header nav ul{
+    display: flex;
+    flex: 1 0 30%;
+    align-items: flex-start;
+    /*margin-left: auto;*/
+    justify-content: right;
+}
+
+header nav ul li{
+    list-style: none outside;
+    align-items: center;
+    padding: 0 1em;
+}
+
+header nav ul li a {
+    color: rgb(0, 153, 0);
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+}
+
+main{
+    padding: 2rem;
+}
+
+h1{
+    margin-bottom: 1.5rem;
+}
+
+p{
+    margin-bottom: 1rem;
+}

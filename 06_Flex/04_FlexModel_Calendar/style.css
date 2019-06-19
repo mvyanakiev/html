@@ -12,6 +12,7 @@ html {
     margin: auto;
     display: flex;
     max-width: 65vw;
+    flex-wrap: wrap;
 }
 
 .week {
@@ -24,30 +25,34 @@ span {
     padding-top: 1rem;
     display: flex;
     border: 1px black solid;
-    /*flex-direction: column;*/
+    justify-content: center;
 }
 
 .workweek {
-    justify-content: center;
+    flex-wrap: wrap;
     display: flex;
     flex: 1 0 70%;
-    min-height: 4rem;
+    min-height: 6rem;
+}
+
+.reminder {
+    display: flex;
+    flex: 1 0 28%;
+    min-height: 6rem;
 }
 
 .days {
     display: flex;
-    flex: 1 0 20%;
+    flex: 1 1 100%;
+    min-height: 6rem;
 }
 
-.reminder {
-    justify-content: center;
+.days span{
     display: flex;
-    flex: 1 0 28%;
-    min-height: 4rem;
-
-
+    flex: 1 0 auto;
 }
 
 .notes {
     display: flex;
+    flex: 1 0 100%;
 }

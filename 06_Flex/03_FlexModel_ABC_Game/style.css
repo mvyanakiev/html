@@ -36,26 +36,50 @@ span {
 }
 
 
-span:nth-child(1){
+.s {
     order: 1;
 }
 
-span:nth-child(5){
+.e {
+    order: 2;
+}
+
+.m1 {
+    order: 3;
+}
+
+.a {
+    order: 4;
+}
+
+.n {
+    order: 5;
+}
+
+.t1{
+    order: 6;
+}
+
+.i{
+    order: 7;
+}
+
+.c{
+    order: 8;
+}
+
+.h{
     order: 9;
 }
 
-span:nth-child(2){
+.t{
     order: 10;
 }
 
-span:nth-child(7){
+.m{
     order: 11;
 }
 
-span:nth-child(10){
+.l{
     order: 12;
 }
-
-/*span:nth-child(6){*/
-/*    order: 1;*/
-/*}*/
