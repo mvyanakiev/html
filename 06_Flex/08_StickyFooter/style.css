@@ -22,9 +22,9 @@ body {
 }
 
 header {
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
     border-bottom: 2px solid #000;
-    flex: 1 1 100%;
+    /*flex: 1 1 auto;*/
 }
 
 main {
@@ -49,6 +49,10 @@ footer{
     text-transform: uppercase;
     line-height: 1.5;
     font-weight: bold;
+}
+
+.footer-text p{
+    margin: 0;
 }
 
 p {
