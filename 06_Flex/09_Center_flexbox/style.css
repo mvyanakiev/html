@@ -1,0 +1,45 @@
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+    font-family: Helvetica, Arial sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+body {
+    font: inherit;
+    display: flex;
+    background: rgb(238, 238, 238);
+    justify-content: center;
+    margin-top: 50vh;
+    transform: translateY(-50%);
+}
+
+div {
+    flex: 0 0 20rem;
+    flex-direction: column;
+    align-items: flex-start;
+    background: rgb(255, 255, 255);
+}
+
+.card {
+    padding: 1rem;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.3);
+}
+
+h1{
+    font-family: Georgia, serif;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+p{
+    margin-bottom: 1rem;
+}
