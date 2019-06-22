@@ -9,7 +9,7 @@ html {
     font: 14px/1.5 Verdana, sans-serif;
 }
 
-body, form, select, input, textarea, option{
+body, form, select, input, textarea, option {
     font: inherit;
     background: ghostwhite;
 }
@@ -33,6 +33,8 @@ form fieldset {
 
 form fieldset p {
     padding-bottom: 1.5rem;
+    display: flex;
+    align-items: center;
 }
 
 form legend {
@@ -46,6 +48,9 @@ form legend {
 form label {
     display: block;
     font-weight: bold;
+    padding-right: 1rem;
+    min-width: 10rem;
+    text-align: right;
 }
 
 form input {
@@ -80,12 +85,60 @@ form input[type="submit"] {
     border-radius: 0.3em;
     border: 2px solid #369;
     cursor: pointer;
+    margin-left: 10rem;
 }
 
 form input[type="submit"]:focus,
 form input[type="submit"]:hover {
-    background: #FFFFFF ;
+    background: #FFFFFF;
     color: #369;
 }
 
+form .field-icon {
+    display: flex;
+    align-items: stretch;
+}
 
+form .field-icon label {
+    order: 1;
+}
+
+form .field-icon input {
+    order: 2;
+}
+
+form .field-icon label {
+    min-width: auto;
+    background: #999;
+    color: #FFF;
+    padding: 0 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+}
+
+form .field-icon label span {
+    display: none
+}
+
+form .field-icon label:before {
+    display: block;
+    content: 'A';
+}
+
+form .field-icon input {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+form .field-icon input:hover + label,
+form .field-icon input:focus + label{
+    background: #369;
+}
+
+
+.video-link {
+    text-align: center;
+}
