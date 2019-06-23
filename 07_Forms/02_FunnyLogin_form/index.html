@@ -3,23 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <title>Funny Login Form</title>
-    <link rel="stylesheet" href="styles.css">
+    <link href="styles.css" rel="stylesheet">
 </head>
 <body>
 
     <div class="container">
         <form action="#" method="post">
 
+            <fieldset>
+
+                <div class="login-buttons">
+
+                    <p>Sign In with</p>
+
+                    <div class="fb">
+                        <p><i class="fab fa-facebook-square"></i> Facebook</p>
+                    </div>
+
+                    <div class="gl">
+                        <p><i class="fab fa-google"></i> Google</p>
+                    </div>
+
+                </div>
 
 
+                <p class="field-icon">
+                    <label for="username">Username</label>
+                    <input id="username" name="username" type="text">
+                </p>
 
+                <p class="field-icon">
+                    <label for="pass">Password</label>
+                    <input id="pass" name="pass" type="password">
+                </p>
 
+                <p>
+                    <input type="submit" value="Sign in">
+                </p>
 
+            </fieldset>
 
         </form>
+
     </div>
 
 
-    
 </body>
 </html>

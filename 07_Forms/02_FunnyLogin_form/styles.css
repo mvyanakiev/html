@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://use.fontawesome.com/releases/v5.8.2/css/all.css');
+
 
 * {
     box-sizing: inherit;
     padding: 0;
-    margin: 0rem;
+    margin: 0;
 }
 
 html {
@@ -18,16 +20,45 @@ body, form, select, input, textarea, option, legend {
 }
 
 body {
+
+}
+
+.container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
 }
 
 form {
-
+    max-width: 30rem;
+    margin: 3rem auto;
+    border: none;
+    overflow: hidden;
 }
 
 form fieldset {
-
+    background: #fff;
+    border-radius: 0.5rem;
+    border: none;
 }
 
-form legend {
+.login-buttons{
+    display: flex;
+    flex-wrap: wrap;
+}
 
+.login-buttons p {
+    text-align: center;
+    flex: 1 1 100%;
+    font: 2rem/1.2 "Georgia", serif;
+    padding: 2rem;
+}
+
+.login-buttons .fb,
+.login-buttons .gl{
+    display: flex;
+    flex: 1 1 10%;
+    font: 14px/1.2 Montserrat, sans-serif;
+    background: #ccc;
+    justify-content: space-between;
 }
