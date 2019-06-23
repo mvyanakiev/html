@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+* {
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0rem;
+}
+
+html {
+    box-sizing: border-box;
+    font: 14px/1.2 Montserrat, sans-serif;
+    background-image: linear-gradient(to right top, #24dcde, #00cfff, #00b8ff, #648cff, #f806ff);
+}
+
+body, form, select, input, textarea, option, legend {
+    font: inherit;
+    box-sizing: inherit;
+}
+
+body {
+}
+
+form {
+
+}
+
+form fieldset {
+
+}
+
+form legend {
+
+}
