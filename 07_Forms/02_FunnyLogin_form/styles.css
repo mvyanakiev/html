@@ -47,32 +47,34 @@ form fieldset {
 
 .social .s-buttons{
     display: flex;
-    flex: 0 0 30%;
-    width: 50%;
+    flex: 1 0 90rem;
     justify-content: space-between;
     margin: 2rem auto;
+    cursor: pointer;
 }
 
 .fb{
     padding: 1rem;
-    justify-content: center;
-    justify-items: center;
+    /*justify-content: space-between;*/
+    /*justify-items: center;*/
     text-align: center;
     border: 1px solid #336699;
     border-radius: 0.5rem;
     color: #fff;
     background: #336699;
+    /*flex: 1 1 30%;*/
 }
 
 .gl{
     padding: 1rem;
-    justify-content: center;
-    justify-items: center;
+    /*justify-content: space-between;*/
+    /*justify-items: center;*/
     text-align: center;
     border: 1px solid #000;
     border-radius: 0.5rem;
     color: #000;
     background: #fff;
+    /*flex: 1 1 30%;*/
 }
 
 .forms{
