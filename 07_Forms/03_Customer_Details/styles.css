@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+/*@import url(https://use.fontawesome.com/releases/v5.8.2/css/all.css);*/
+
+* {
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    line-height: 1.2;
+}
+
+body, form, select, input, textarea, option, legend {
+    font: inherit;
+    box-sizing: inherit;
+}
+
+form {
+    background: rgb(173, 216, 230);
+    padding: 2rem;
+    border: none;
+    border-radius: 0.5rem;
+    margin: 2rem auto;
+    max-width: 35rem;
+}
+
+fieldset{
+    border: none;
+}
+
+.heading{
+    font-family: Georgia, serif;
+    font-size: 2rem;
+    text-align: center;
+    color: rgb(36 66 96);
+    margin: 0 auto 1.5rem auto;
+}
+
+p.radio{
+    display: inline-block;
+    width: 9rem;
+    margin-right: 1.5rem;
+}
+
+form label{
+    width: 9rem;
+    margin-right: 1.5rem;
+}
