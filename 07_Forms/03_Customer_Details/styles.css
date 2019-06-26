@@ -37,16 +37,47 @@ fieldset{
     font-size: 2rem;
     text-align: center;
     color: rgb(36 66 96);
-    margin: 0 auto 1.5rem auto;
+    margin: 0 auto 2rem auto;
+
 }
 
 p.radio{
     display: inline-block;
-    width: 9rem;
-    margin-right: 1.5rem;
+    flex: 1 1 1%;
 }
 
-form label{
-    width: 9rem;
-    margin-right: 1.5rem;
+.forms{
+    display: flex;
+    margin: 1rem auto;
+    padding-right: 5rem;
+}
+
+.forms label{
+    flex: 1 1 1%;
+    display: inline-block;
+}
+
+.forms input,
+textarea {
+    flex: 1 0 135px;
+    border: 1px solid #666666;
+    padding: 0.5rem;
+    /*justify-items: left;*/
+    display: inline-block;
+}
+
+.rd{
+    flex: 1 0 135px;
+    display: inline-block;
+    justify-items: flex-start;
+    align-items: flex-start;
+}
+
+/*input[type="radio"]{*/
+/*    margin-right: 0.2rem;*/
+/*}*/
+
+.rd > label {
+    margin-left: 0.1rem;
+    margin-right: 0.7rem;
 }
