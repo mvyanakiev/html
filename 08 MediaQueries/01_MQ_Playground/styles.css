@@ -1,0 +1,21 @@
+@media screen and (min-width: 600px) {
+    html .mq-width{
+        color: #2A943C;
+    }
+}
+
+@media screen and (min-height: 600px) {
+    html .mq-height{
+        color: #f806ff;
+    }
+}
+
+@media screen and (min-aspect-ratio: 8/5){
+    html{
+        background: #00b8ff;
+    }
+
+    html .mq-ar{
+        color: #fff;
+    }
+}

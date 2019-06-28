@@ -3,11 +3,22 @@
     padding: 0;
 }
 
+.cleaner:after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
 html {
     box-sizing: border-box;
     font-family: Helvetica, Arial sans-serif;
     font-size: 16px;
     line-height: 1.5;
+}
+
+.page {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 body {
@@ -18,48 +29,72 @@ body {
     background: rgb(238, 238, 238);
 }
 
-.page {
-    display: flex;
-    flex-wrap: wrap;
-}
-
 header {
     margin-bottom: 1rem;
     border-bottom: 2px solid #000;
     flex: 1 1 100%;
 }
 
+.site-title {
+    font-family: Helvetica, Arial sans-serif;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+
+
+
 main {
-    display: flex;
+    /*display: flex;*/
     flex: 1 1 70%;
     flex-wrap: wrap;
+    margin-right: 3rem;
+}
+
+.right {
+    float: right;
+    margin: 0 0 0 1rem;
+}
+
+.left {
+    float: left;
+    margin: 0 1rem 0 0;
 }
 
 .bq {
-    display: flex;
-    flex-wrap: wrap;
-    flex: 0 0 30%;
-    justify-content: flex-end;
-
+    width: 45%;
     font-family: Georgia, serif;
-    margin: 1rem 1rem 1rem auto;
-    padding: 1rem 0rem 2rem 2rem;
-    border-left: 5px solid #cccccc;
     font-style: italic;
+    margin: 2rem;
+    padding: 1rem 0rem 0rem 2rem;
+    border-left: 5px solid #cccccc;
+}
+
+blockquote p:nth-of-type(2) {
+    text-align: right;
+    margin-right: 3rem;
 }
 
 img {
     border: 2px solid #000;
     padding: 1rem;
     background: rgb(255, 255, 255);
-    box-shadow: 5px 5px 30px 10px rgba(0, 0, 0, 0.25);
+    box-shadow: 5px 5px 30px 10px rgba(0, 0, 0, 0.11);
     margin: 1rem;
-    justify-content: right;
-    flex-wrap: wrap;
+    /*justify-content: right;*/
+    /*flex-wrap: wrap;*/
 }
 
+
+
+
+
+
+
 aside {
-    margin-left: 5rem;
+    /*margin-left: 5rem;*/
     flex: 1 1 20%;
     flex-wrap: wrap;
 }
@@ -74,25 +109,25 @@ aside ul a {
     color: rgb(0, 153, 0);
 }
 
-.site-title {
-    display: inline-block;
-    font-family: Helvetica, Arial sans-serif;
-    font-size: 2.5rem;
-    text-transform: uppercase;
-    line-height: 1.5;
-    font-weight: bold;
-}
+
+
+
+
+
+
+
+
 
 p {
     margin-bottom: 1em;
-    flex-wrap: wrap;
+    /*flex-wrap: wrap;*/
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: Georgia, serif;
     line-height: 1.2;
     padding: 0;
-    font-weight: normal;
+    font-weight: bold;
 }
 
 h1 {

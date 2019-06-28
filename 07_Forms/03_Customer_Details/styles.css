@@ -26,6 +26,7 @@ form {
     border-radius: 0.5rem;
     margin: 2rem auto;
     max-width: 35rem;
+    vertical-align: center;
 }
 
 fieldset{
@@ -50,11 +51,13 @@ p.radio{
     display: flex;
     margin: 1rem auto;
     padding-right: 5rem;
+    align-items: center;
 }
 
 .forms label{
     flex: 1 1 1%;
     display: inline-block;
+    align-items: center;
 }
 
 .forms input,
@@ -64,6 +67,7 @@ textarea {
     padding: 0.5rem;
     /*justify-items: left;*/
     display: inline-block;
+    align-items: center;
 }
 
 .rd{
