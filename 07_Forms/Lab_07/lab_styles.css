@@ -1,3 +1,5 @@
+@import url(https://use.fontawesome.com/releases/v5.8.2/css/all.css);
+
 * {
     box-sizing: inherit;
     padding: 0;
@@ -122,8 +124,10 @@ form .field-icon label span {
 }
 
 form .field-icon label:before {
+    font-family: "Font Awesome 5 Free";
+    /*font-weight: 700;*/
     display: block;
-    content: 'A';
+    content: '\f007';
 }
 
 form .field-icon input {
