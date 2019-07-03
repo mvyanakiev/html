@@ -1,0 +1,86 @@
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+}
+
+.cleaner:after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+html {
+    box-sizing: border-box;
+    font-family: Helvetica, Arial sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+h1 {
+    font-family: Georgia, serif;
+    font-size: 1em;
+    line-height: 1.2;
+    margin: 1rem 0;
+
+}
+
+body {
+    background: rgb(238, 238, 238);
+}
+
+section.card {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    margin: 4rem auto;
+    background: rgb(255, 255, 255);
+    box-shadow: 0px 0px 26px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    border: 0px solid #cccccc;
+
+}
+
+section > div {
+    position: relative;
+    width: 400px;
+    height: 200px;
+}
+
+div.upper {
+
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+div.down {
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    top: 200px;
+    padding: 20px;
+}
+
+button {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: translate(-50px, -50px);
+    padding: 10px;
+    border-radius: 5px;
+    background: rgb(0, 153, 0);
+    color: #FFFFFF;
+    font-weight: bold;
+    border: 0px;
+}

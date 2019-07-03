@@ -1,0 +1,94 @@
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+}
+
+.cleaner:after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+html {
+    box-sizing: border-box;
+    font-family: Helvetica, Arial sans-serif;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.page {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+body {
+    font: inherit;
+    width: 80%;
+    max-width: 60rem;
+    margin: 2rem auto;
+    background: rgb(238, 238, 238);
+}
+
+header {
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #000;
+    flex: 1 1 100%;
+}
+
+main {
+    flex: 1 1 70%;
+    flex-wrap: wrap;
+    margin-right: 3rem;
+}
+
+.right {
+    float: right;
+    margin: 0 0 1rem 1rem;
+}
+
+.left {
+    float: left;
+    margin: 0 1rem 1rem 0;
+}
+
+.bq {
+    width: 45%;
+    font-family: Georgia, serif;
+    font-style: italic;
+    margin: 2rem;
+    padding: 1rem 0rem 0rem 2rem;
+    border-left: 5px solid #cccccc;
+}
+
+blockquote p:nth-of-type(2) {
+    text-align: right;
+    margin-right: 3rem;
+}
+
+img {
+    border: 2px solid #000;
+    padding: 1rem;
+    background: rgb(255, 255, 255);
+    box-shadow: 5px 5px 30px 10px rgba(0, 0, 0, 0.11);
+    /*margin: 1rem 1rem 3rem 1rem;*/
+}
+
+aside {
+    /*margin-left: 5rem;*/
+    flex: 1 1 20%;
+    flex-wrap: wrap;
+}
+
+aside ul {
+    list-style: square;
+    margin-left: 2rem;
+}
+
+aside ul a {
+    text-decoration: none;
+    color: rgb(0, 153, 0);
+}
+
+p {
+    margin-bottom: 1em;
+}
