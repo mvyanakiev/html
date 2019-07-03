@@ -1,0 +1,77 @@
+/*@import url('../../tipography.css');*/
+@import url('navigation.css');
+
+
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html{
+    box-sizing: border-box;
+    /*font: 14px/1.5 Verdana, sans-serif;*/
+}
+
+.site{
+    max-width: 64rem;
+    margin: 0 auto;
+    padding: 2rem 4rem;
+}
+
+.site-header{
+    display: flex;
+    align-items: center;
+    padding-bottom: 4em;
+}
+
+.site-title{
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: 900;
+    letter-spacing: 0.05em;
+}
+
+a{
+    text-decoration: none;
+    color: #369;
+}
+
+nav > ul {
+    display: flex;
+}
+
+nav > ul > li{
+    padding: 0 0.5em;
+}
+
+nav > ul > li > a {
+    padding: 0.5em 1em;
+    outline: none;
+}
+
+nav > ul > li > a:focus,
+nav > ul > li > a:hover {
+    background: #000;
+    /*color: #369;*/
+}
+
+nav > ul > li > a:focus{
+    text-decoration: underline;
+}
+
+/*Tablets*/
+@media (min-width: 600px) {
+
+}
+
+/*Desktop*/
+@media (min-width: 1100px) {
+
+}
+
+/*Large*/
+@media (min-width: 2500px) {
+
+}
+

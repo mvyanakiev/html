@@ -39,5 +39,8 @@ h6{font-size: 1.2em;}
     font-weight: bold;
     font-size: 1.2em;
     color: #000;
+}
 
+p.site-title{
+    font-size: 2rem;
 }
