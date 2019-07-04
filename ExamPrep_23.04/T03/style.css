@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i&display=swap');
+
+*, *:before, *:after {
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+    font: 20px/1.5 "Open Sans", sans-serif;
+}
+
+
+body, form, select, input, textarea, option, legend {
+    font: inherit;
+    box-sizing: inherit;
+}
+
+.wrapper {
+    display: flex;
+    max-width: 900px;
+    margin: 2rem auto;
+    border: solid 2px #666666;
+    border-radius: 0.3rem;
+    background: rgb(246, 247, 248)
+}
+
+.picture {
+    flex: 0 0 50%;
+    background-image: url('https://media.licdn.com/dms/image/C4E22AQH0262THjPM_w/feedshare-shrink_1280/0?e=1563408000&v=beta&t=4MdYyx-HsaDGW-WZJujDGtWHdZTghCXTeTZ7wPKKXz0');
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+}
+
+.info {
+    flex: 0 0 50%;
+    padding: 1em;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 1em;
+    font-weight: 700;
+    color: #666666;
+}
+
+.units {
+    display: flex;
+    width: 100%;
+    margin: 1rem auto;
+}
+
+.units p {
+    flex: 0 0 50%;
+    padding: 0.5em;
+    text-align: center;
+}
+
+p.us {
+    background: rgb(239 228 118);
+}
+
+p.metric {
+    background: rgb(224 224 223);
+}
+
+form .form-1row,
+form .form-row-2c {
+    margin-top: 1.5em;
+}
+
+form .form-row-2c {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.left, .right {
+    flex: 0 0 48%;
+}
+
+form select {
+    height: 2.4em;
+    background: #FFFFFF;
+    font-style: italic;
+    color: #666666;
+}
+
+
+form label {
+    display: block;
+    margin-bottom: 0.2em;
+}
+
+form input,
+form select {
+    width: 100%;
+    border: solid 1px #666666;
+    border-radius: 0.3rem;
+    padding: 0.4em;
+    font-style: italic;
+}
+
+.button {
+    display: block;
+    width: 100%;
+    font-weight: 600;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 1.2em;
+    background: rgb(67 160 206);
+    padding: 0.4em;
+    border-radius: 0.3em;
+    text-decoration: none;
+    font-size: 1.2em;
+}

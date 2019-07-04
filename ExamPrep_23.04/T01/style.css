@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i&display=swap');
+
+* {
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+    font: 18px/1.5 PT Serif, serif;
+}
+
+body, form, select, input, textarea, option, legend {
+    font: inherit;
+    box-sizing: inherit;
+}
+
+body{
+    margin: 5rem auto;
+    max-width: 50rem;
+}
+
+.wrapper{
+    max-width: 900px;
+    display: flex;
+    box-shadow: 0px 0px 12px 3px rgba(0,0,0,0.35);
+}
+
+.description{
+    padding: 1.5em;
+    background-image: url("images/image1.png");
+    background-position: left top; /* Center the image */
+    background-repeat: repeat-y; /* Do not repeat the image */
+}
+
+.picture{
+    flex: 0 0 50%;
+    background-image: url('images/image.jpg');
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+}
+
+h1.title{
+    font: 1.9em PT Serif, serif;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 0.2em;
+    border-bottom: 2px dotted #2A943C;
+}
+
+ul{
+    list-style: none outside;
+    margin: 2em 0;
+}
+
+.subtitle{
+    display: flex;
+    justify-content: space-between;
+}
+
+.subtitle p {
+    /*font-weight: 600;*/
+    font-style: italic;
+}
+
+li {
+    padding: 0.1em 0;
+}
+
+li span{
+    color: #2A943C;
+    font-weight: 700;
+}
+
+table{
+    margin-top: 2em;
+    width: 100%;
+    text-align: center;
+}
+
+table, tr, td, th{
+    border: 1px solid #2A943C;
+    border-collapse: collapse;
+    padding: 0.1em;
+}
+
+
+
+
+
