@@ -73,9 +73,8 @@ body {
 }
 
 .main-sidebar ul {
-    padding: 1rem;
-    padding-right: 0;
-    padding-top: 0;
+    padding: 0 0 1em 1em;
+
 }
 
 .main-sidebar > section {
@@ -85,6 +84,8 @@ body {
 article.post {
     padding-bottom: 3rem;
 }
+
+
 
 article.post section.content img {
     display: block;

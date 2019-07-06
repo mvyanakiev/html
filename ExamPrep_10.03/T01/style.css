@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Courgette&display=swap');
+@import url(https://use.fontawesome.com/releases/v5.8.2/css/all.css);
+
+
+* {
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+    font: 18px/1.5 Courgette, sans-serif;
+    background: rgb(246 246 246);
+}
+
+body, form, select, input, textarea, option, legend {
+    font: inherit;
+    box-sizing: inherit;
+}
+
+body {
+    margin: 3rem auto;
+    max-width: 65rem;
+}
+
+h1 {
+    font: 4em/1 Courgette, sans-serif;
+    text-align: center;
+}
+
+h2.subtitle{
+    font: 2em/1 Courgette, sans-serif;
+    color: rgb(188 51 48);
+    margin-left: 57%;
+    margin-top: 0.3em;
+}
+
+.wrapper {
+    margin-top: 3em;
+    display: flex;
+    max-width: 65rem;
+    justify-content: space-evenly;
+}
+
+.card {
+    flex: 0 0 31%;
+    border-radius: 10px;
+    background: #FFFFFF;
+    overflow: hidden;
+    min-height: 25em;
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+p.title {
+    margin: 1rem auto;
+    border-bottom: rgb(188 51 48) solid 2px;
+    width: 90%;
+    display: block;
+    padding-bottom: 0.6em;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.content {
+    color: gray;
+    font-weight: lighter;
+    font-size: 0.9em;
+    padding: 0 1em;
+}
+
+
+.card section.pic {
+    overflow: hidden;
+    position: relative;
+}
+
+.card section.pic:before {
+    display: block;
+    content: '';
+    padding-top: 59%;
+}
+
+.card section.pic img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+.continue {
+    margin-top: auto;
+    margin-bottom: 1em;
+
+}
+
+p.continue a{
+    text-decoration: none;
+    color: #333333;
+}
+
+.continue:after {
+    font-family: "Font Awesome 5 Free";
+    content: '\f138';
+    font-weight: 900;
+    color: rgb(188 51 48);
+    margin-left: 0.6em;
+    cursor: pointer;
+}

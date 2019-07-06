@@ -8,7 +8,7 @@ html {
     box-sizing: border-box;
 }
 
-.container {
+.container-icons {
     margin: auto;
     display: flex;
     max-width: 65vw;

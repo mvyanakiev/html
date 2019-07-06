@@ -1,0 +1,209 @@
+@import url(https://use.fontawesome.com/releases/v5.8.2/css/all.css);
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap');
+
+*, *:before, *:after {
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+    font: 16px/1.2 "PT Sans", sans-serif;
+    background: rgb(236 236 236);
+}
+
+body, form, select, input, textarea, option, legend {
+    font: inherit;
+    box-sizing: inherit;
+}
+
+body {
+    max-width: 75rem;
+    margin: 0 auto;
+}
+
+.head {
+    width: 100%;
+    min-height: 33rem;
+    background-image: url("image/computer-main.jpg");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.5);
+}
+
+.bkg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(to top, #999999, #000000);
+    opacity: 0.6;
+    z-index: 5;
+}
+
+header {
+    display: flex;
+    padding: 0.7em 7em;
+    color: #FFFFFF;
+    font-size: 1.4em;
+    justify-content: space-between;
+    text-shadow: inherit;
+    z-index: 10;
+    flex-wrap: wrap;
+}
+
+h1.title {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 3.5em;
+    margin-top: 1.2em;
+    z-index: 10;
+    text-shadow: inherit;
+}
+
+p.slogan {
+    z-index: 10;
+    text-shadow: inherit;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 1em auto 0 auto;
+    width: 50%;
+    font-weight: normal;
+    font-size: 1.8em;
+}
+
+.cta-button {
+    text-decoration: none;
+    display: block;
+    color: #FFFFFF;
+    background: rgb(93 204 147);
+    padding: 0.7em;
+    text-align: center;
+    z-index: 10;
+    text-shadow: none;
+    border: 1px solid rgb(93 204 147);
+    min-width: 10%;
+    border-radius: 0.5em;
+    margin: 2.5em auto;
+    font-weight: 700;
+    font-size: 1.2em;
+}
+
+.demo {
+    text-decoration: none;
+    color: #FFFFFF;
+    text-align: center;
+    z-index: 10;
+    margin: 0 auto 1em auto;
+    font-size: 1.4em;
+}
+
+.what{
+    display: flex;
+    max-width: 100%;
+    flex-wrap: wrap;
+}
+
+.what-pic{
+    flex: 1 1 50%;
+    background-image: url("image/tablet.jpg");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+}
+
+.content{
+    flex: 1 1 50%;
+    padding-left: 3.75em;
+    padding-right: 2em;
+}
+
+h2{
+    font-size: 2.2em;
+    font-weight: 700;
+    margin-top: 1.5em;
+}
+
+h2.left{
+    text-align: left;
+}
+
+h2.center{
+    text-align: center;
+    margin-bottom: 1.5em;
+}
+
+p.li-header{
+    font-size: 1.3em;
+    margin-top: 0.5em;
+    font-weight: normal;
+}
+
+.content ul{
+    list-style: none outside;
+    margin: 2em 0;
+    font-size: 1.2em;
+    font-weight: normal;
+}
+
+.content ul li{
+    margin: 0.8em 0;
+}
+
+
+.content ul li:before{
+    font-family: "Font Awesome 5 Free";
+    content: '\f058';
+    font-weight: 900;
+    color: rgb(93 204 147);
+    margin-right: 0.8em;
+}
+
+.benefits{
+    display: flex;
+    max-width: 100%;
+    flex-wrap: wrap;
+}
+
+.icons {
+    flex: 1 1 50%;
+}
+
+.benefits-pic{
+    flex: 1 1 50%;
+    background-image: url("image/pen.jpg");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+}
+
+.container-icons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.icon{
+    flex: 1 1 30%;
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+.icon img{
+    max-width: 5em;
+    max-height: 5em;
+}
+
+.icon .text{
+    font-weight: 900;
+    color: rgb(93 204 147);
+    margin-top: 0.4em;
+    font-size: 1.2em;
+}
+

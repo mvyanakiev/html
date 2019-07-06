@@ -1,0 +1,41 @@
+
+@media screen and (max-width: 800px) {
+
+    h2.subtitle {
+        font: 2em/1 Courgette, sans-serif;
+        color: rgb(188 51 48);
+        margin-top: 0.3em;
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .wrapper {
+        margin: 2em;
+        display: flex;
+        max-width: 65rem;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .card {
+        flex: 0 0 80%;
+        margin: 1em auto;
+    }
+
+    p.title {
+        font-size: 2em;
+    }
+
+    .content {
+        font-size: 1em;
+        margin-bottom: 1em;
+    }
+
+
+
+
+
+
+}
+
+

@@ -1,2 +1,198 @@
 @import url(https://use.fontawesome.com/releases/v5.8.2/css/all.css);
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700|PT+Serif:400,700&display=swap');
 
+*, *:before, *:after {
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+    font: 16px/1.2 "PT Sans", sans-serif;
+    background: rgb(236	236	236);
+}
+
+
+body, form, select, input, textarea, option, legend {
+    font: inherit;
+    box-sizing: inherit;
+}
+
+body{
+    max-width: 85rem;
+    margin: 0 auto;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    background: rgb(192	48	39);
+    justify-content: space-between;
+    padding: 0.8em 2em;
+    color: #FFFFFF;
+}
+
+.socials p i{
+    padding-left: 0.5em;
+}
+
+.head{
+    background-image: url('images/fitness-main.jpg');
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+}
+
+nav{
+    margin-left: auto;
+    padding-right: 2em;
+}
+
+nav ul {
+    list-style: none outside;
+    display: flex;
+    margin-top: 1.4em;
+}
+
+nav ul li {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 0.8em;
+    padding-left: 5em;
+    justify-content: right;
+    text-shadow: 3px 3px 2px rgba(0,0,0,0.83);
+}
+
+h1.title{
+    font: 4.5rem PT Serif, serif;
+    color: #FFFFFF;
+    font-weight: 700;
+    margin-top: 1.5em;
+    margin-left: 25%;
+}
+
+.slogan{
+    color: #FFFFFF;
+    text-align: center;
+    margin: 2.3em auto;
+    font-size: 1.1em;
+    width: 35%;
+}
+
+.cta-button{
+    width: 17%;
+    font-size: 1.1em;
+    margin: 0 auto 0 auto;
+    color: #FFFFFF;
+    font-weight: 700;
+    background: rgb(192	48	39);
+    border-radius: 0.3rem;
+    text-align: center;
+    padding: 0.8em;
+    text-decoration: none;
+}
+
+.welcome{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    background: #FFFFFF;
+}
+
+.container-title{
+    flex: 0 0 100%;
+    text-align: center;
+    margin: 1em auto;
+}
+
+h2{
+    font-size: 2.5em;
+    text-align: center;
+}
+
+
+h2::after {
+    display: block;
+    content: '';
+    width: 1.5em;
+    height: 3px;
+    background: rgb(192 48 39);
+    margin: 1em auto 0 auto;
+}
+
+.welcome .container-element {
+    text-align: center;
+    flex: 0 0 25%;
+    margin-bottom: 3.5em;
+}
+
+h3 {
+    color: rgb(192 48 39);
+    font-size: 1.3em;
+    text-align: center;
+    font-weight: 700;
+    margin: 1em auto;
+    letter-spacing: 0.05em;
+}
+
+div.container-element p{
+    text-align: center;
+    color: #666666;
+}
+
+.container-element .icon img{
+    width: 60px;
+    height: auto;
+}
+
+.coaches{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    background: rgb(239	239	239);
+}
+
+.coaches-human{
+    text-align: center;
+    flex: 0 0 32%;
+    margin-bottom: 3.5em;
+    padding: 0 1rem;
+}
+
+.pic img{
+    border-radius: 0.5rem;
+    width: 300px;
+    height: auto;
+}
+
+p.name{
+    font-size: 1.3em;
+    text-align: center;
+    font-weight: 700;
+    margin: 1em  auto 0.2em auto;
+}
+
+p.position{
+    font-size: 1.3em;
+    text-align: center;
+    color: rgb(192 48 39);;
+    margin: 0em  auto 0.5em auto;
+}
+
+p.description{
+    color: #999999;
+    margin-top: 1.5em;
+    padding: 0 2em;
+}
+
+footer{
+    background: rgb(192 48 39);
+    text-align: center;
+    padding: 0.8em;
+}
