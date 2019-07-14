@@ -1,0 +1,214 @@
+@import url(https://use.fontawesome.com/releases/v5.8.2/css/all.css);
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Roboto:300,300i,400,400i,500,500i,700,700i,900,900i&display=swap');
+
+*, *:before, *:after {
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+    font: 16px/1.2 "Roboto", sans-serif;
+}
+
+body, form, select, input, textarea, option, legend {
+    font: inherit;
+    box-sizing: inherit;
+}
+
+body {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+header{
+    width: 100%;
+    min-height: 44rem;
+    background-image: url("../Requirements-and-Resources/image/image.jpg");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    top: 3em;
+    left: 4em;
+    height: 200px;
+    width: 240px;
+    box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.75);
+    padding-left: 1em;
+}
+
+
+
+.slogan {
+    position: absolute;
+    top: 11em;
+    right: 2em;
+    height: 270px;
+    width: 314px;
+    box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.75);
+    padding-left: 1em;
+    background: #9C938B;
+    /*background: -webkit-linear-gradient(left, #9C938B, #C9C9C9);*/
+    /*background: -moz-linear-gradient(left, #9C938B, #C9C9C9);*/
+    background: linear-gradient(to right, #9C938B, #C9C9C9);
+}
+
+.head-text {
+    font: 38px/1.2 "Abril Fatface", sans-serif;
+    display: inline-block;
+    border-bottom: 2px #FFFFFF solid;
+    padding-bottom: 0.4em;
+    padding-top: 1em;
+    width: 4em;
+}
+
+p.name {
+    margin-top: 1em;
+    font-size: 1em;
+}
+
+.slogan{
+    padding: 1em;
+    /*position: relative;*/
+}
+
+.content {
+    color: #FFFFFF;
+    text-align: right;
+    font-size: 1em;
+    line-height: 1.4;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.76);
+    margin-top: 4em;
+}
+
+.quote {
+    position: absolute;
+    top: 5px;
+    right: 0.2em;
+    text-align: right;
+    font-size: 6em;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.76);
+    margin: 0.1em auto;
+    color: #9C938B;
+}
+
+main{
+    display: flex;
+    width: 100%;
+    background: rgb(242	240	243);
+}
+
+.main-section {
+    flex: 0 0 70%;
+
+}
+
+.main-content{
+    padding: 3em 0 1em 3em;
+}
+
+aside{
+    flex: 0 0 28%;
+    background: rgb(186	177	173);
+    margin-left: auto;
+}
+
+h2 {
+    font: 38px/1.2 "Abril Fatface", sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 1em;
+}
+
+.entity:last-child{
+    padding-bottom: 2em;
+}
+
+.point{
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-left: 0.3em;
+}
+
+.entity{
+    margin-bottom: 2em;
+}
+
+
+
+
+h2.bordered{
+    border-bottom: 2px solid black;
+}
+
+aside{
+    padding: 2em 0 2em 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+footer{
+    padding: 0 0 3em 3em;
+}
+
+.big {
+    font-size: 5em;
+    color: #FFFFFF;
+    font-weight: lighter;
+}
+
+.small{
+    font-size: 0.8em;
+    text-transform: uppercase;
+    margin-top: -0.5em;
+
+}
+
+span.address{
+    font-weight: 700;
+    font-style: italic;
+    margin-left: 0.3em;
+}
+
+.info{
+    line-height: 2;
+}
+
+form{
+    margin-top: 1.5em;
+}
+
+input {
+    padding: 0.8em;
+    background: rgb(186 177 173);
+    color: #FFFFFF;
+    border: 0px;
+    border-radius: 0.5em;
+    outline: none;
+    width: 20em;
+    margin-right: 1em;
+}
+
+.start {
+    text-decoration: none;
+    min-width: 29%;
+    color: #FFFFFF;
+    padding: 0.8em;
+    background: rgb(104 121 77);
+    border: 0px;
+    border-radius: 0.5em;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #FFFFFF;
+    opacity: 1; /* Firefox */
+}
+
+
+
+

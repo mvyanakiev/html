@@ -1,0 +1,93 @@
+@import url(https://use.fontawesome.com/releases/v5.8.2/css/all.css);
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:400,500,700&display=swap');
+
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+    font: 18px/1.5 Arial, sans-serif;
+    background: rgb(246 246 246);
+}
+
+body, form, select, input, textarea, option, legend {
+    font: inherit;
+    box-sizing: inherit;
+}
+
+.wrapper {
+    position: relative;
+    margin: 5rem auto;
+    /*display: flex;*/
+    background-image: url("images/image.jpg");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    max-width: 55rem;
+    /*justify-content: space-between;*/
+    min-height: 35vh;
+}
+
+.bkg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgb(39 63 105);
+    opacity: 0.9;
+    z-index: 10;
+}
+
+.close {
+    position: absolute;
+    top: 0.5em;
+    right: 1em;
+    font-weight: 900;
+    color: #FFFFFF;
+    font-size: 1.1em;
+    z-index: 100;
+}
+
+.container {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 2em;
+}
+
+.people,
+.jet,
+.cargo,
+.ship {
+    margin-top: 5em;
+    flex: 0 0 25%;
+    z-index: 100;
+}
+
+p {
+    color: #FFFFFF;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.icon {
+    font-size: 2.5em;
+    color: rgb(224 136 60);
+}
+
+
+.number {
+    font-size: 1.2em;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.type{
+    font-size: 0.9em;
+}

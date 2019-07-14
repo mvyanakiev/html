@@ -1,0 +1,153 @@
+@media screen and (max-width: 768px) {
+
+    .site-main {
+        margin: 0;
+    }
+
+    .entry-header {
+        border-radius: 0;
+    }
+
+    .site-navigation ul {
+        /*display: flex;*/
+        padding-bottom: 0;
+        align-items: center;
+        display: none;
+    }
+
+    .entry-header-title {
+        font-weight: 400;
+        font-size: 4.0rem;
+        padding-bottom: 1rem;
+    }
+
+    .site-logos-container {
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .site-logo:not(:last-child) {
+        margin-right: 0;
+    }
+
+    .site-logo {
+        color: #FF8F57;
+        font-weight: bold;
+        display: inline-block;
+        letter-spacing: 1px;
+        font-size: 1.60rem;
+        position: relative;
+        flex: 0 0 33%;
+    }
+
+    .site-information {
+        width: 100%;
+        display: block;
+        background: radial-gradient(circle at 100% 50%, transparent 20%, rgba(255, 255, 255, .3) 21%, rgba(255, 255, 255, .3) 34%, transparent 35%, transparent), radial-gradient(circle at 0% 50%, transparent 20%, rgba(255, 255, 255, .3) 21%, rgba(255, 255, 255, .3) 34%, transparent 35%, transparent) 0 -50px;
+        background-color: #41CFCF;
+        background-size: 75px 100px;
+        color: #fff;
+        text-shadow: 1px 1px 1px rgb(122, 121, 121);
+        text-align: center;
+    }
+
+    .entry-description {
+        width: 100%;
+        font-size: 1.3rem;
+    }
+
+    .site-information-image {
+        display: none;
+    }
+
+    .site-form {
+        text-align: center;
+        background: #FF8F57;
+        opacity: 0.6;
+        padding: 4rem 2rem;
+        margin-top: 0;
+    }
+
+    .site-posts {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+
+    .site-blog-container {
+        text-align: center;
+        padding: 4rem 2rem;
+        background: rgb(241, 241, 230);
+        margin-top: 0;
+    }
+
+    .site-footer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 1.5rem 1rem;
+        background: #329a8f;
+        color: #fff;
+        font-family: 'Lobster', cursive;
+        font-size: 1.2rem;
+        flex-direction: column;
+    }
+
+    .site-footer p {
+        padding: 0;
+        text-align: center;
+    }
+
+    .site-footer a {
+        color: #fff;
+        font-family: 'Lobster', cursive;
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+
+}
+
+
+
+
+@media screen and (min-width: 1024px){
+
+    .site-main {
+        margin: 0;
+    }
+
+    .entry-header {
+        border-radius: 0;
+    }
+
+    .site-logo {
+        color: #FF8F57;
+        font-weight: bold;
+        display: inline-block;
+        letter-spacing: 1px;
+        font-size: 1.60rem;
+        position: relative;
+        flex: 0 0 6%;
+    }
+
+    .site-logos {
+         padding: 0;
+    }
+
+    .site-logo:not(:last-child) {
+         margin-right: 0;
+    }
+
+    .site-logos-container {
+        text-align: center;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    }
+
+
+}
