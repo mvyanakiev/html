@@ -34,7 +34,7 @@ h1.title{
     font-size: 2em;
     width: 35%;
     text-shadow: 0 0 10px rgba(0,0,0,0.8);
-    z-index: 20;
+    z-index: 20;font-style: italic;
     /*-webkit-text-stroke: 1px white;*/
     /*text-transform: uppercase;*/
 }

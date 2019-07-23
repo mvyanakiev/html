@@ -17,6 +17,7 @@ header{
     color: var(--header-color-text);
     padding: 0.8em 0;
     z-index: 20;
+    /*position: fixed;*/
 }
 
 .phone{
@@ -57,18 +58,19 @@ nav{
     background: #FFFFFF;
     opacity: 0.8;
     z-index: 20;
+    padding: 0.8em 0;
+    /*position: fixed;*/
 }
 
 nav ul {
     padding-right: 2em;
     list-style: none outside;
     display: flex;
-    margin: 1em 0 1em auto;
+    /*margin: 1em 0 1em auto;*/
     justify-content: right;
 }
 
 nav ul li {
-    /*padding-left: 5em;*/
     justify-content: right;
 }
 
@@ -137,7 +139,6 @@ h2::after {
     overflow: hidden;
     border-radius: 0.5em;
 }
-
 
 .pic:before{
     display: block;
