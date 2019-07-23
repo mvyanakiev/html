@@ -15,9 +15,14 @@ html {
 
 h1.title{
     font: 4.5rem PT Serif, serif;
+    /*color: #a11c27;*/
     color: var(--index-title-color);
-    font-weight: 700;
+    font-weight: 900;
     margin: 1em auto 0 auto;
+    letter-spacing: 0.03em;
+    -webkit-text-stroke: 2px white;
+    text-shadow: 0 0 10px rgba(0,0,0,0.8);
+    text-transform: uppercase;
 }
 
 .slogan{
@@ -26,6 +31,9 @@ h1.title{
     margin: 2.3em auto 1em auto;
     font-size: 2em;
     width: 35%;
+    text-shadow: 0 0 10px rgba(0,0,0,0.8);
+    /*-webkit-text-stroke: 1px white;*/
+    /*text-transform: uppercase;*/
 }
 
 .cta-button{

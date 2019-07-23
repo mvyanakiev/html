@@ -65,7 +65,7 @@ nav ul li {
     background: var(--cta-button-background);
     color: var(--cta-button-text-color);
     border: 3px solid var(--cta-button-background);
-    border-radius: 0.3rem;
+    border-radius: 0.6rem;
     padding: 0.8em;
     transition: color ease-in-out 0.3s, background ease-in-out 0.3s;
 }
