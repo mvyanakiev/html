@@ -71,7 +71,7 @@ textarea {
 }
 
 .rd{
-    flex: 1 0 135px;
+    flex: 1 0 8em;
     display: inline-block;
     justify-items: flex-start;
     align-items: flex-start;
@@ -84,4 +84,8 @@ textarea {
 .rd > label {
     margin-left: 0.1rem;
     margin-right: 0.7rem;
+}
+
+input[type="date"]{
+    color: red;
 }
