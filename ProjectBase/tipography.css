@@ -4,19 +4,27 @@ html {
     background: var(--main-background);
 }
 
+.socials > p > a {
+    color: white;
+    transition: color ease-in-out 0.3s;
+}
+
+.socials > p > a:hover {
+    color: var(--main-background);
+}
+
 h1.title{
     font: 4.5rem PT Serif, serif;
     color: var(--index-title-color);
     font-weight: 700;
-    margin-top: 1.5em;
-    margin-left: 25%;
+    margin: 1em auto 0 auto;
 }
 
 .slogan{
     color: var(--index-title-color);
     text-align: center;
-    margin: 2.3em auto;
-    font-size: 1.1em;
+    margin: 2.3em auto 1em auto;
+    font-size: 2em;
     width: 35%;
 }
 
@@ -25,7 +33,6 @@ h1.title{
     text-align: center;
     text-decoration: none;
     font-size: 1.1em;
-    color: var(--cta-button-text-color);
 }
 
 h3 {
@@ -49,11 +56,21 @@ div.container-element p{
 }
 
 nav ul li {
+    cursor: pointer;
+}
+
+nav ul li a {
     text-decoration: none;
     color: var(--nav-color-text);
-    text-shadow: 3px 3px 2px rgba(0,0,0,0.83);
+    text-shadow: 0 0 2px rgba(0,0,0,0.7);
     font-weight: 700;
-    /*font-size: 0.8em;*/
+    padding: 1em 2em;
+    transition: color ease-in-out 0.3s, text-shadow ease-in-out 0.3s;
+}
+
+nav ul li a:hover{
+    color: white;
+    text-shadow: 0 0 8px rgba(0,0,0,1);
 }
 
 p.name{

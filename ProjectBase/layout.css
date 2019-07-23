@@ -37,13 +37,13 @@ header{
     background-size: cover;
     display: flex;
     flex-direction: column;
-    height: 50vh;
+    height: 30em;
     width: auto;
 }
 
 nav{
     background: #FFFFFF;
-    opacity: 0.5;
+    opacity: 0.8;
 }
 
 nav ul {
@@ -55,7 +55,7 @@ nav ul {
 }
 
 nav ul li {
-    padding-left: 5em;
+    /*padding-left: 5em;*/
     justify-content: right;
 }
 
@@ -63,8 +63,16 @@ nav ul li {
     width: 10%;
     margin: 0 auto 0 auto;
     background: var(--cta-button-background);
+    color: var(--cta-button-text-color);
+    border: 3px solid var(--cta-button-background);
     border-radius: 0.3rem;
     padding: 0.8em;
+    transition: color ease-in-out 0.3s, background ease-in-out 0.3s;
+}
+
+.cta-button:hover{
+    background: white;
+    color: var(--main-color);
 }
 
 .key-points{
@@ -96,11 +104,6 @@ h2::after {
     margin-bottom: 3.5em;
 }
 
-/*.container-element .icon img{*/
-/*    width: 60px;*/
-/*    height: auto;*/
-/*}*/
-
 .offer{
     display: flex;
     flex-wrap: wrap;
@@ -115,10 +118,27 @@ h2::after {
     margin-bottom: 3.5em;
 }
 
-.pic img{
-    border-radius: 0.5rem;
-    width: 18em;
+.offer-element .pic{
+    position: relative;
+    overflow: hidden;
+    border-radius: 0.5em;
+}
+
+
+.pic:before{
+    display: block;
+    content: '';
+    padding-top: 56.25%;
+}
+
+section .offer-element .pic img{
+    display: block;
+    max-width: 100%;
     height: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 
 footer{
