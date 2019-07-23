@@ -11,88 +11,6 @@
 
 
 
-
-
-
-
-
-
-.cta-button{
-    width: 17%;
-    font-size: 1.1em;
-    margin: 0 auto 0 auto;
-    color: #FFFFFF;
-    font-weight: 700;
-    background: var(--main-color);
-    border-radius: 0.3rem;
-    text-align: center;
-    padding: 0.8em;
-    text-decoration: none;
-}
-
-
-
-h2{
-    font-size: 2.5em;
-    text-align: center;
-}
-
-
-h2::after {
-    display: block;
-    content: '';
-    width: 1.5em;
-    height: 3px;
-    background: rgb(192 48 39);
-    margin: 1em auto 0 auto;
-}
-
-.welcome .container-element {
-    text-align: center;
-    flex: 0 0 25%;
-    margin-bottom: 3.5em;
-}
-
-h3 {
-    color: rgb(192 48 39);
-    font-size: 1.3em;
-    text-align: center;
-    font-weight: 700;
-    margin: 1em auto;
-    letter-spacing: 0.05em;
-}
-
-div.container-element p{
-    text-align: center;
-    color: #666666;
-}
-
-.container-element .icon img{
-    width: 60px;
-    height: auto;
-}
-
-.coaches{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    width: 100%;
-    background: rgb(239	239	239);
-}
-
-.coaches-human{
-    text-align: center;
-    flex: 0 0 32%;
-    margin-bottom: 3.5em;
-    padding: 0 1rem;
-}
-
-.pic img{
-    border-radius: 0.5rem;
-    width: 300px;
-    height: auto;
-}
-
 p.name{
     font-size: 1.3em;
     text-align: center;
@@ -103,18 +21,9 @@ p.name{
 p.position{
     font-size: 1.3em;
     text-align: center;
-    color: rgb(192 48 39);;
+    color: var(--main-color);;
     margin: 0em  auto 0.5em auto;
 }
 
-p.description{
-    color: #999999;
-    margin-top: 1.5em;
-    padding: 0 2em;
-}
 
-footer{
-    background: var(--main-color);
-    text-align: center;
-    padding: 0.8em;
-}
+

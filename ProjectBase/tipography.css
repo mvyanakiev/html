@@ -1,11 +1,8 @@
-
-
 html {
     box-sizing: border-box;
     font: 16px/1.2 "PT Sans", sans-serif;
     background: var(--main-background);
 }
-
 
 h1.title{
     font: 4.5rem PT Serif, serif;
@@ -21,4 +18,45 @@ h1.title{
     margin: 2.3em auto;
     font-size: 1.1em;
     width: 35%;
+}
+
+.cta-button{
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.1em;
+    color: var(--cta-button-text-color);
+}
+
+h3 {
+    color: var(--main-color);
+    font-size: 1.3em;
+    text-align: center;
+    font-weight: 700;
+    margin: 1em auto;
+    letter-spacing: 0.05em;
+}
+
+h2{
+    font-size: 2.5em;
+    text-align: center;
+}
+
+div.container-element p{
+    text-align: center;
+    color: #666666;
+}
+
+nav ul li {
+    text-decoration: none;
+    color: var(--nav-color-text);
+    text-shadow: 3px 3px 2px rgba(0,0,0,0.83);
+    font-weight: 700;
+    /*font-size: 0.8em;*/
+}
+
+p.description{
+    color: #666666;
+    margin-top: 1.5em;
+    padding: 0 2em;
 }

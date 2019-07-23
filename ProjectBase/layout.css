@@ -1,12 +1,12 @@
-
 body, form, select, input, textarea, option, legend {
     font: inherit;
     box-sizing: inherit;
 }
 
 body{
-    max-width: 85rem;
+    width: 65em;
     margin: 0 auto;
+    position: relative;
 }
 
 header{
@@ -14,8 +14,16 @@ header{
     display: flex;
     background: var(--main-color);
     justify-content: space-between;
-    padding: 0.8em 2em;
     color: var(--header-color-text);
+    padding: 0.8em 0;
+}
+
+.phone{
+    padding-left: 2em;
+}
+
+.socials{
+    padding-right: 2em;
 }
 
 .socials p i{
@@ -23,36 +31,43 @@ header{
 }
 
 .head{
-    background-image: url('_images/fitness-main.jpg');
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
+    background-image: url('images/head-image-background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     flex-direction: column;
     height: 70vh;
+    width: auto;
 }
 
 nav{
-    margin-left: auto;
-    padding-right: 2em;
+    background: #FFFFFF;
+    opacity: 0.5;
 }
 
 nav ul {
+    padding-right: 2em;
     list-style: none outside;
     display: flex;
-    margin-top: 1.4em;
+    margin: 1em 0 1em auto;
+    justify-content: right;
 }
 
 nav ul li {
-    text-decoration: none;
-    color: var(--nav-color-text);
-    font-size: 0.8em;
     padding-left: 5em;
     justify-content: right;
-    text-shadow: 3px 3px 2px rgba(0,0,0,0.83);
 }
 
-.welcome{
+.cta-button{
+    width: 10%;
+    margin: 0 auto 0 auto;
+    background: var(--cta-button-background);
+    border-radius: 0.3rem;
+    padding: 0.8em;
+}
+
+.key-points{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -64,4 +79,51 @@ nav ul li {
     flex: 0 0 100%;
     text-align: center;
     margin: 1em auto;
+}
+
+h2::after {
+    display: block;
+    content: '';
+    width: 1.5em;
+    height: 3px;
+    background: var(--main-color);
+    margin: 1em auto 0 auto;
+}
+
+.key-points .container-element {
+    text-align: center;
+    flex: 0 0 25%;
+    margin-bottom: 3.5em;
+}
+
+.container-element .icon img{
+    width: 60px;
+    height: auto;
+}
+
+.offer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    background: var(--offer-background);
+}
+
+.offer-element{
+    text-align: center;
+    flex: 0 0 28%;
+    margin-bottom: 3.5em;
+    padding: 0 1rem;
+}
+
+.pic img{
+    border-radius: 0.5rem;
+    width: 300px;
+    height: auto;
+}
+
+footer{
+    background: var(--main-color);
+    text-align: center;
+    padding: 0.8em;
 }
