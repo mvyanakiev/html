@@ -16,6 +16,7 @@ header{
     justify-content: space-between;
     color: var(--header-color-text);
     padding: 0.8em 0;
+    z-index: 20;
 }
 
 .phone{
@@ -39,11 +40,23 @@ header{
     flex-direction: column;
     height: 30em;
     width: auto;
+    position: relative;
+}
+
+.head:after{
+    /*background-image: linear-gradient(to bottom, #000000, #ffffff);*/
+    background: black;
+    opacity: 0.45;
+    position: absolute;
+    top: 0; bottom: 0; left: 0; right: 0;
+    z-index: 10;
+    content: '';
 }
 
 nav{
     background: #FFFFFF;
     opacity: 0.8;
+    z-index: 20;
 }
 
 nav ul {
@@ -68,6 +81,7 @@ nav ul li {
     border-radius: 0.6rem;
     padding: 0.8em;
     transition: color ease-in-out 0.3s, background ease-in-out 0.3s;
+    z-index: 20;
 }
 
 .cta-button:hover{
