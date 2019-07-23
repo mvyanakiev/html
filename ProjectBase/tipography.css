@@ -1,0 +1,24 @@
+
+
+html {
+    box-sizing: border-box;
+    font: 16px/1.2 "PT Sans", sans-serif;
+    background: var(--main-background);
+}
+
+
+h1.title{
+    font: 4.5rem PT Serif, serif;
+    color: var(--index-title-color);
+    font-weight: 700;
+    margin-top: 1.5em;
+    margin-left: 25%;
+}
+
+.slogan{
+    color: var(--index-title-color);
+    text-align: center;
+    margin: 2.3em auto;
+    font-size: 1.1em;
+    width: 35%;
+}
