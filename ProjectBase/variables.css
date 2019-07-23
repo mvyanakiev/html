@@ -1,6 +1,6 @@
 :root {
     --main-color: #336699;
-    --main-background: rgb(236	236	236);
+    --main-background: #cccc;
     --index-title-color: #FFFFFF;
 
     --nav-color-text: #336699;
@@ -10,6 +10,4 @@
 
     --cta-button-background: #336699;
     --cta-button-text-color: #FFFFFF
-
-
 }

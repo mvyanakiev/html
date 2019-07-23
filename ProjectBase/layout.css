@@ -27,7 +27,7 @@ header{
 }
 
 .socials p i{
-    padding-left: 0.5em;
+    padding-left: 1em;
 }
 
 .head{
@@ -37,7 +37,7 @@ header{
     background-size: cover;
     display: flex;
     flex-direction: column;
-    height: 70vh;
+    height: 50vh;
     width: auto;
 }
 
@@ -96,15 +96,15 @@ h2::after {
     margin-bottom: 3.5em;
 }
 
-.container-element .icon img{
-    width: 60px;
-    height: auto;
-}
+/*.container-element .icon img{*/
+/*    width: 60px;*/
+/*    height: auto;*/
+/*}*/
 
 .offer{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
     width: 100%;
     background: var(--offer-background);
 }
@@ -113,12 +113,11 @@ h2::after {
     text-align: center;
     flex: 0 0 28%;
     margin-bottom: 3.5em;
-    padding: 0 1rem;
 }
 
 .pic img{
     border-radius: 0.5rem;
-    width: 300px;
+    width: 18em;
     height: auto;
 }
 
