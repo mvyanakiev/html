@@ -18,7 +18,6 @@ fieldset{
     text-align: center;
     color: white;
     margin: 0 auto 2rem auto;
-
 }
 
 .forms{
@@ -36,7 +35,7 @@ fieldset{
 }
 
 .forms input {
-    flex: 1 0 135px;
+    flex: 1 0 9em;
     /*border: 1px solid #666666;*/
     padding: 0.5rem;
     /*justify-items: left;*/
@@ -63,4 +62,8 @@ fieldset{
 .submit-button:hover {
     background: #FFFFFF;
     color: var(--main-color);
+}
+
+[name='date']{
+    color: #999999;
 }

@@ -39,7 +39,7 @@ header{
     background-size: cover;
     display: flex;
     flex-direction: column;
-    height: 30em;
+    /*height: 30em;*/
     width: auto;
     position: relative;
 }
@@ -61,7 +61,7 @@ nav{
     padding: 0.8em 0;
     justify-content: flex-end;
     justify-items: flex-end;
-    /*position: fixed;*/
+    display: flex;
 }
 
 nav ul {
@@ -69,12 +69,12 @@ nav ul {
     list-style: none outside;
     display: flex;
     margin-left: auto;
-    justify-content: right;
+    justify-content: flex-end;
 }
 
 .cta-button{
     width: 10%;
-    margin: 0 auto 0 auto;
+    margin: 0 auto 2.5em auto;
     background: var(--cta-button-background);
     color: var(--cta-button-text-color);
     border: 3px solid var(--cta-button-background);
@@ -88,8 +88,6 @@ nav ul {
     background: white;
     color: var(--main-color);
 }
-
-
 
 .key-points{
     display: flex;
