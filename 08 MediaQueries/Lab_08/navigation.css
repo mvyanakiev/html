@@ -70,10 +70,6 @@ nav > ul > li > a:hover {
         display: block;
     }
 
-    /*.nav-toggle:checked + .site-header .nav{*/
-    /*    display: block;*/
-    /*}*/
-
     .nav-toggle-menu .close {
         display: none;
     }
@@ -103,6 +99,13 @@ nav > ul > li > a:hover {
         display: none;
     }
 }
+
+
+
+
+
+
+
 
 
 
